@@ -6,7 +6,7 @@ from colorama import init, Fore
 
 import hamming_utils
 
-class TransmissionSystem:
+class Hamming:
     def __init__(self):
         init()
         self.original_msg = ""
@@ -147,7 +147,7 @@ if __name__ == "__main__":
     init()
     # Store the starting time
     start_time = time.time()
-    transmission = TransmissionSystem()
-    transmission.run()
+    hamming = Hamming()
+    hamming.run()
     duration = time.time() - start_time
     print(f"Execution time: {Fore.CYAN}{duration:.2f} seconds{Fore.RESET}")
