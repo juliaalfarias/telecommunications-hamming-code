@@ -1,2 +1,2 @@
-# telecommunications-polar-code
-How polar codes perform for telecommunications applications.
+# telecommunications-hamming-code
+How Hamming code perform for telecommunications applications.
