@@ -12,17 +12,6 @@ class TransmissionSystem:
         self.original_msg = ""
         self.recovered_msg = ""
         self.sigma = 0
-        self.h = []
-        self.x_hamming = []
-        self.x_hamming_conv = []
-        self.y = np.array([])
-        self.quant_level = 0
-        self.x_hamming_rec = []
-        self.h_rec = ""
-        self.errors = 0
-        self.error_rate = 0
-        self.duration = 0
-        self.decision_depth = 0
 
     def get_user_input(self):
         msg_1 = "Enter the message to be sent:"
